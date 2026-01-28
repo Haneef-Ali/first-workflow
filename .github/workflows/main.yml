@@ -1,14 +1,12 @@
-name: Haneef
-
-on:
-  push:
-    branches:
-      - main
-
+name: Khan
+on: 
+    push:
+        branches:
+            - main
 jobs:
-  demo:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Greetings
-        run: echo "Hello from Haneef."
+    latest:
+        runs-on: Ubuntu-latest
+       steps :
+            -name: Good Morning
+            run: echo "Hneef Ha."
+            
